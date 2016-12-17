@@ -142,6 +142,12 @@
 }
 
 /* -- spotlight -- */
+
+.spotlight {
+	background-color: #FBFBFB;
+	width: 100%;
+	height: 645px;
+}
 .spotlight_left {
 	width: 70%;
 	margin: 0;
@@ -365,6 +371,7 @@ a.event-name {
     border: 1px solid #E0E0E0;
     border-top: 3px solid #B31B1B;
     border-bottom: none;
+    background-color: #fff;
 }
 
 .tower-title {
@@ -445,7 +452,7 @@ h3.tower-title a {
 
 /* -- intro -- */
 .introduction {
-	background-color: #EDEDED;
+	background-color: #f4f4f4;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -496,4 +503,197 @@ h3.tower-title a {
 .btn_intro:hover {
 	background-color: #6eb43f;
 	color: #fff;
+}
+
+/* -- announcement section -- */
+
+.announcement {
+	background-color: white;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.announcement-left {
+	width: 100%;
+	float: left;
+}
+
+.announcement-content {
+	width: 23%;
+	margin-right: 2%;
+	float: left;
+}
+
+.announcement-title a {
+	text-decoration: none;
+	color: #2f2f2f;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.announcement-comment-img {
+	float: left;
+	width: 10%;
+}
+
+.announcement-comment-text {
+	float: left;
+	width: 90%;
+}
+
+.announcement-comment-text p {
+	font-size: 12px;
+	color: #888;
+	font-weight: 400;
+	font-family: 'freight', sans-serif;
+	margin-left: 2px;
+	margin-top: 11px;
+}
+
+.announcement-comment-img img {
+	margin-top: 10px;
+}
+
+.announcement-caption p {
+	color: #777777;
+	font-size: 14px;
+	font-family: 'freight', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.announcement-caption-2 a {
+	color: #3787BB;
+	text-decoration: none;
+}
+
+.announcement-caption-2 a:hover {
+	text-decoration: underline;
+	text-decoration-color: #3787BB;
+}
+
+.page ul {
+  list-style: none;
+}
+
+.page li {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  line-height: 35px;
+  transition: all 0.3s ease;
+}
+
+.page li:hover {
+	background-color: #B31B1B;
+}
+
+.page li a:hover {
+	color: white;
+}
+
+.active {
+  color: #ffffff !important;
+}
+
+.active2 {
+	background: #B31B1B;
+}
+
+.page li a{
+  color: #b4b4b4;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+}
+
+.next {
+	list-style: none;
+}
+
+.next li {
+	border: 1px solid #e3e3e3;
+	width: 35px;
+  	height: 35px;
+  	text-align: center;
+  	line-height: 35px;
+  	display: inline-block;
+  	transition: all 0.3s ease;
+}
+
+.next li:hover {
+	background-color: #B31B1B;
+}
+
+.navigation {
+	width: 50%;
+}
+
+.navigation_left {
+	width: 23%;
+	float: left;
+}
+
+.navigation_right {
+	width: 10%;
+	float: left;
+}
+
+/* penerimaan siswa pengumuman */
+.important {
+	width: 100%;
+	background-color: #B31B1B;
+	margin: 0;
+	padding: 0;
+	height: 250px;
+}
+
+
+.important_left {
+	width: 15%;
+	margin-right: 2%;
+	float: left;
+}
+
+.important_right {
+	width: 83%;
+	float: left;
+}
+
+.important_right h3 {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'roboto', sans-serif;
+	font-weight: normal;
+	font-weight: 400;
+}
+
+.btn_important {
+	color: #2f2f2f;
+	background-color: #fff;
+    border: 3px solid #fff;
+    font-family: 'freight', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    padding: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn_important:hover {
+	background: none;
+	color: white;
+}
+
+/* -- footer -- */
+.bawah {
+	height: 700px;
 }

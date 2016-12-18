@@ -20,7 +20,7 @@ p, a {
 /* -- nav 1 -- */
 
 .menu ul {
-	background-color: transparent;
+	background-color: #222222;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -37,7 +37,7 @@ p, a {
 .menu ul li a {
 	text-decoration: none;
   	display: block;
-  	padding: 20px 40px;
+  	padding: 30px 40px;
   	color: #84888D;
   	transition: all 0.3s ease;
   	font-size: 16px;
@@ -958,6 +958,13 @@ h3.tower-title a {
 	font-size: 20px;
 }
 
+.history-content-text a {
+	color: #3787C5;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	font-size: 15px;
+}
+
 .history-content-list {
 	list-style: none;
 	display: inline-block;
@@ -982,10 +989,10 @@ h3.tower-title a {
 /*-- indepth-history -- */
 .indepth-history {
 	width: 100%;
-	height: 600px;
+	height: 1540px;
 	margin: 0;
 	padding: 0;
-	background-color: #F4F4F4;
+	background-color: #F6F6F6;
 }
 
 .indepth-history-title h2 {
@@ -1012,6 +1019,7 @@ h3.tower-title a {
 	margin: 0;
 	padding: 0;
 	height: 650px;
+	border-bottom: 1px solid #E0E0E0
 }
 .profile-left {
 	width: 55%;
